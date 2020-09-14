@@ -1,0 +1,301 @@
+/* soft reset do css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #F2FBEF;
+
+  }
+
+  ul{
+
+    list-style: none;
+  }
+
+  a{
+      text-decoration: none;
+
+  }
+ .barratop-bg{
+    display: flex;
+    background-color: #8a4d25;
+    
+    color: whitesmoke;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    justify-content: flex-end;
+  }
+
+  .barratop i{
+    display: flex;
+    
+    max-width: 960px;
+    font-size: 1.6em;
+    color: whitesmoke;
+    height: auto;
+  justify-content: flex-end;
+    margin: 0 auto;
+    
+    
+    margin-right: 15vh;
+
+  }
+
+ 
+  .barratop-bg a{
+    color: white;
+
+  }
+
+.logo{
+  
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  margin: 2em 2em;
+}
+
+.logo img{
+  display: flex;
+  align-content: center;
+  width: 29em;
+}
+
+
+.menu-bg {
+  
+    background: #FFBF00;
+    height: 3em;
+    margin-bottom: 2em;
+
+  }
+
+ .menu-nav {
+  
+  max-width: 960px;
+	margin: 0 auto;
+	
+	
+
+
+}
+
+.menu-nav ul {
+  
+  padding: 2px 0;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+	
+}
+
+.menu-nav a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #F2FBEF;
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.slider{
+
+display: flex;
+align-items: center;
+margin-top: 7px;
+width: 70em;
+
+}
+
+#carouselExampleIndicators {
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+#carouselExampleIndicators .carousel-inner
+ { 
+  
+  justify-content: center;
+align-items: center;
+    width: 60em;
+    max-width: 100%;
+
+  }
+
+  .intro {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+
+  }
+
+
+
+
+   .produtos{
+    border-top: 0.5em solid #ebe266;
+    
+   }
+  
+   .produtos .intro h1 {
+     color: #585858;
+     
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+    
+    
+  }
+
+  
+    .produtos{
+      max-width: 960px;
+      margin: 60px auto;
+      
+
+    }
+
+    .produtos-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+       }
+
+  .produtos-container h2 {
+     font-size: 2em;
+     color: #a4a4a4;
+     background: #f7f7f7;
+     padding: 60px 20px;
+      }   
+
+    .cocada{
+
+      border-top: 8px solid #7a4e0b;
+      margin-right: 1em;
+      padding: 1em;
+      
+    }
+
+   
+
+    .doce-leite{
+
+      border-top: 8px solid #66d9eb;
+      margin-right: 1em;
+      padding: 1em;
+    }
+
+    .canudo{
+
+      border-top: 8px solid #ebe266;
+      padding: 1em;
+      margin-right: 1em;
+    }
+
+    .caju{
+
+      border-top: 8px solid #7a4e0b;
+      margin-right: 1em;
+      padding: 1em;
+      
+    }
+    
+    .pequi{
+
+      border-top: 8px solid #ebe266;
+      padding: 1em;
+      margin-right: 1em;
+    }
+
+
+
+
+
+    .sobre{
+      border-top: 8px solid #7a4e0b;
+      max-width: 960px;
+      margin: 60px auto;
+      color: rgba(66, 43, 9, 0.61);
+      
+
+    }
+
+    .sobre p {
+      font-size: 1.2em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    background: #f7f7f7;
+    color: rgb(36, 4, 4);
+
+
+    }
+
+
+
+
+
+    .contato{
+      border-top: 8px solid #7f51ff;
+      max-width: 960px;
+      margin: 60px auto;
+      
+
+    }
+
+
+
+    
+
+
+  .mini-img{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .mini-img img{
+      max-width: 100%;
+      padding: 1vh;
+
+  }
+
+
+  @media (min-width : 480px) 
+  {
+    .menu-nav
+    {
+      max-width: 420px;
+
+    }
+
+    .mini-img{display: none;}
+
+  }
+
+
+  @media (max-width : 480px)
+  {
+    .logo img{
+    max-width: 100%;
+    }
+
+  @media (max-width : 480px)
+    {
+    #carouselExampleIndicators{display: none;}
+    }
+
+
+}
